@@ -9,10 +9,10 @@ This course project examines 30-day hospital readmission among patients with dia
 
 ## Results
 
-On the held-out encounter-level test set, ROC-AUC was 0.569 for logistic regression, 0.609 for random forest, and 0.673 for XGBoost. These results come from a course analysis and should be interpreted as exploratory.
+On the patient-grouped test set, ROC-AUC was 0.571 for logistic regression, 0.604 for random forest, and 0.665 for XGBoost. These results come from a course analysis and should be interpreted as exploratory.
 
 ## Data and limitations
 
 Download `diabetic_data.csv` from the UCI dataset page linked above and place it in the same folder as the notebooks before running them in order. The source data and generated CSV are not stored in this repository.
 
-The dataset reflects historical hospital encounters from 1999–2008. The analysis splits encounters rather than patients, so encounters from the same person may appear in both training and test sets. Some preprocessing also occurs before the split. These limitations can make test performance optimistic. This project is not a clinically validated prediction tool.
+The dataset reflects historical hospital encounters from 1999–2008. Train and test sets were split by patient ID to keep encounters from the same person together. Some preprocessing occurs before the split, so the evaluation remains exploratory. These limitations can make test performance optimistic. This project is not a clinically validated prediction tool.
