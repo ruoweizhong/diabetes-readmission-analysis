@@ -1,4 +1,3 @@
-# diabetes-readmission-analysis
 # Diabetes 30-Day Readmission Analysis
 
 This course project examines 30-day hospital readmission among patients with diabetes using the publicly available [Diabetes 130-US Hospitals dataset](https://archive.ics.uci.edu/dataset/296/diabetes+130+us+hospitals+for+years+1999+2008). It demonstrates clinical data cleaning, exploratory analysis, and comparison of three classification models.
